@@ -1,0 +1,103 @@
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .cell {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .cell:nth-child(7n + 1) {
+    background-color: rgb(200 50 50);
+    color: white;
+    border: solid black;
+  }
+  
+  .cell:nth-child(7n + 2) {
+    background-color: rgb(200 50 50);
+    color: white;
+    border: solid black;
+  }
+  
+  .cell:nth-child(7n + 3) {
+    background-color: rgb(200 50 50);
+    color: white;
+    border: solid black;
+  }
+  
+  .cell:nth-child(7n + 4) {
+    background-color: rgb(200 50 50);
+    color: white;
+    border: solid black;
+  }
+  
+  .cell:nth-child(7n + 5) {
+    background-color: rgb(200 50 50);
+    color: white;
+    border: solid black;
+  }
+  
+  .cell:nth-child(7n + 6) {
+    background-color: rgb(200 50 50);
+    color: white;
+    border: solid black;
+  }
+  
+  .cell:nth-child(7n + 7) {
+    background-color: rgb(200 50 50);
+    color: white;
+    border: solid black;
+  }
+  
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .legend {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .legend-cell {
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    border: solid black;
+  }
+  
+  .yellow {
+    background-color: yellow;
+    color: white;
+  }
+  
+  .blue {
+    background-color: blue;
+    color: white;
+  }
+  
+  .green {
+    background-color: green;
+    color: white;
+  }
+  
+  .red {
+    background-color: red;
+    color: white;
+  }
+  
+  .selected {
+    border: 2px #000000;
+    box-shadow: 4px 4px 0px 0px black;
+  }
+  
